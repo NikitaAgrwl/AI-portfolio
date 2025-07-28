@@ -64,11 +64,83 @@
   }
 
   .light {
-    /* Light mode override if needed */
+    /* Light theme colors */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 196 75% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 196 75% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 196 75% 55%;
+
+    /* Portfolio specific colors for light theme */
+    --portfolio-bg: 0 0% 100%;
+    --portfolio-surface: 0 0% 98%;
+    --portfolio-surface-hover: 210 40% 96.1%;
+    --portfolio-text: 222.2 84% 4.9%;
+    --portfolio-text-muted: 215.4 16.3% 46.9%;
+    --portfolio-accent: 196 75% 55%;
+    --portfolio-border: 214.3 31.8% 91.4%;
+  }
+
+  .dark {
+    /* Dark theme colors */
+    --background: 215 25% 16%;
+    --foreground: 210 15% 85%;
+
+    --card: 215 25% 18%;
+    --card-foreground: 210 15% 85%;
+
+    --popover: 215 25% 18%;
+    --popover-foreground: 210 15% 85%;
+
+    --primary: 196 75% 55%;
+    --primary-foreground: 215 25% 16%;
+
+    --secondary: 215 25% 22%;
+    --secondary-foreground: 210 15% 85%;
+
+    --muted: 215 25% 22%;
+    --muted-foreground: 210 15% 65%;
+
+    --accent: 196 75% 55%;
+    --accent-foreground: 215 25% 16%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 25%;
+    --input: 215 25% 25%;
+    --ring: 196 75% 55%;
+
+    /* Portfolio specific colors for dark theme */
+    --portfolio-bg: 215 25% 16%;
+    --portfolio-surface: 215 25% 18%;
+    --portfolio-surface-hover: 215 25% 22%;
+    --portfolio-text: 210 15% 85%;
+    --portfolio-text-muted: 210 15% 65%;
+    --portfolio-accent: 196 75% 55%;
+    --portfolio-border: 215 25% 25%;
   }
 }
 
