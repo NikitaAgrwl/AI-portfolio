@@ -1,17 +1,16 @@
 import Header from "@/components/Header"
-import Sidebar from "@/components/Sidebar"
 import HeroSection from "@/components/sections/HeroSection"
 import AboutSection from "@/components/sections/AboutSection"
 import ExperienceSection from "@/components/sections/ExperienceSection"
 import SkillsSection from "@/components/sections/SkillsSection"
 import ProjectsSection from "@/components/sections/ProjectsSection"
-import ContactSection from "@/components/sections/ContactSection"
+import EducationSection from "@/components/sections/EducationSection"
+import CertificationsSection from "@/components/sections/CertificationsSection"
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-portfolio-bg">
       <Header />
-      <Sidebar />
       
       <main>
         <HeroSection />
@@ -19,7 +18,8 @@ const Index = () => {
         <ExperienceSection />
         <SkillsSection />
         <ProjectsSection />
-        <ContactSection />
+        <EducationSection />
+        <CertificationsSection />
       </main>
     </div>
   );

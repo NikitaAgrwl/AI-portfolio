@@ -4,7 +4,7 @@ import profileImage from "@/assets/profile-image.jpg"
 
 const AboutSection = () => {
   return (
-    <section className="py-16 lg:ml-80">
+    <section className="py-16">
       <div className="container mx-auto px-6">
         <Card className="bg-portfolio-surface border-portfolio-border animate-fade-in-up hover:shadow-lg hover:shadow-portfolio-accent/10 transition-all duration-300">
           <CardContent className="p-8">
