@@ -22,7 +22,7 @@ const Header = () => {
               Download CV
             </Button> */}
             <a
-              href="/Nikita_Agarwal_CV.pdf"
+              href="/Nikita_Agarwal_DataEngineer.pdf"
               download
               className="border border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:text-portfolio-bg px-4 py-2 rounded text-sm transition-all"
             >
