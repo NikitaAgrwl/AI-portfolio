@@ -6,9 +6,9 @@ import { ExternalLink, Github } from "lucide-react"
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Healthcare Data Analytics Platform",
+      title: "Healthcare Data Integration Platform",
       description: "Built a comprehensive data platform for healthcare analytics, processing EHR and claims data for over 500 providers. Implemented real-time patient cohorting and provider performance tracking.",
-      technologies: ["Python", "Snowflake", "DBT", "Airflow", "AWS", "Power BI"],
+      technologies: ["Python", "Snowflake", "DBT", "AWS", "Power BI", "MWAA", "Apache Airflow", "Healthcare APIs"],
       github: "#",
       demo: "#",
       highlights: [
@@ -18,27 +18,39 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "Real-time Data Pipeline",
-      description: "Designed and implemented a real-time data processing pipeline using Apache Kafka and Spark Streaming to handle high-volume financial transactions.",
-      technologies: ["Apache Kafka", "Spark", "Scala", "Redis", "Docker"],
+      title: "Enterprise DBT Cloud Migration",
+      description: "Configured role-based access controls and environment isolation for enterprise governance. Achieved 95% team adoption rate through comprehensive training and documentation",
+      technologies: ["DBT Core","DBT Cloud", "CI/CD", "GitHub Actions", "Git"],
       github: "#",
       demo: "#",
       highlights: [
-        "Processes 1M+ transactions/day",
-        "Sub-second latency",
-        "99.9% uptime"
+        "Led migration of 200+ DBT models from Core to Cloud",
+        "Automated CI/CD pipelines",
+        "Reduced deployment errors by 50%"
       ]
     },
     {
-      title: "ML-Powered Analytics Dashboard",
-      description: "Created an interactive dashboard with machine learning models for predictive analytics in the e-commerce domain, featuring customer behavior analysis and sales forecasting.",
-      technologies: ["Python", "TensorFlow", "React", "D3.js", "PostgreSQL"],
+      title: "Production Healthcare Infrastructure Monitoring",
+      description: "Implemented proactive issue detection preventing 15+ potential system failures. Achieved 4-hour average incident resolution time through systematic troubleshootingEnhanced overall system efficiency for mission- critical healthcare reporting",
+      technologies: ["Apache Airflow","Arena Platform", "Jira", "Linux", "AWS EMR"],
       github: "#",
       demo: "#",
       highlights: [
-        "85% prediction accuracy",
-        "Real-time visualizations",
-        "Automated model retraining"
+        "Monitored 50+ data pipelines across customer environments",
+        "Ensured 99.9% uptime",
+        "Managed infrastructure optimization"
+      ]
+    },
+    {
+      title: "SWH Hostel",
+      description: "A web app developed for one of the Tezpur University's hostel to manage records of the borders, hostel rooms and other managerial activity related to the hostel.",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "Bootstrap", "Javascript"],
+      github: "#",
+      demo: "https://www.tezu.ernet.in/hostels/swh/",
+      highlights: [
+        "Centralized Record Management",
+        "Admin Panel for Daily Operations",
+        "Real-Time Data & Reporting"
       ]
     }
   ]

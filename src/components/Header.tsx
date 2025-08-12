@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-xl font-bold text-portfolio-accent">PORTFOLIO</h1>
-          
+
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-portfolio-text hover:text-portfolio-accent transition-colors">
               About
@@ -18,9 +18,16 @@ const Header = () => {
             <a href="#projects" className="text-portfolio-text hover:text-portfolio-accent transition-colors">
               Project
             </a>
-            <Button variant="outline" size="sm" className="border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:text-portfolio-bg">
+            {/* <Button variant="outline" size="sm" className="border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:text-portfolio-bg">
               Download CV
-            </Button>
+            </Button> */}
+            <a
+              href="/Nikita_Agarwal_CV.pdf"
+              download
+              className="border border-portfolio-accent text-portfolio-accent hover:bg-portfolio-accent hover:text-portfolio-bg px-4 py-2 rounded text-sm transition-all"
+            >
+              Download CV
+            </a>
             <ThemeToggle />
           </nav>
 

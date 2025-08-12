@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 const ExperienceSection = () => {
   const experiences = [
     {
-      period: "APR 2024 - Present",
+      period: "MAR 2023 - Present",
       role: "Software Engineer",
       company: "TrieDatum",
       description: "As a Software Engineer at TrieDatum, I specialize in healthcare data analytics, focusing on integrating EHR, claims, and lab data using DBT, Snowflake, and Python. My role involves developing scalable patient cohorting algorithms and provider performance models, which support value-based care analytics for over 500 healthcare providers.",
@@ -16,21 +16,31 @@ const ExperienceSection = () => {
       ]
     },
     {
-      period: "JAN 2022 - MAR 2024",
-      role: "Data Engineer",
-      company: "TechCorp Solutions",
-      description: "Developed and maintained data pipelines processing millions of records daily. Collaborated with cross-functional teams to implement business intelligence solutions.",
+      period: "FEB 2022 - AUG 2022",
+      role: "Intern",
+      company: "Antares Tech",
+      description: "Developed Picture-in-Picture functionality using React and JavaScript APIs, which improved user experience by 35%.",
       achievements: [
-        "Built ETL pipelines processing 10M+ records daily",
-        "Reduced data processing time by 40%",
-        "Implemented automated testing for data quality",
-        "Created dashboards for executive reporting"
+        "Collaborated with frontend and UX teams",
+        "Optimized video playback performance",
+        "Ensured cross-browser compatibility across multiple devices"
+      ]
+    },
+    {
+      period: "MAY 2018 - JUN 2018",
+      role: "Intern",
+      company: "IIT Guwahati",
+      description: "Implemented ARIMA time series models using Python for historical data analysis and forecasting.",
+      achievements: [
+        "Implemented statistical forecasting models using Python for time series analysis and predictive modelling",
+        "Developed performance optimized C components for data transformation",
+        "Conducted rigorous model validation techniques"
       ]
     }
   ]
 
   return (
-    <section id="experience" className="py-16">
+    <section id="experience" className="py-5">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-portfolio-text mb-8">Experience</h2>
         

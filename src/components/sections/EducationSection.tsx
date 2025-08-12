@@ -5,22 +5,22 @@ import { GraduationCap, Calendar } from "lucide-react"
 const EducationSection = () => {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      school: "Stanford University",
-      location: "Stanford, CA",
-      period: "2019 - 2021",
-      gpa: "3.8/4.0",
-      coursework: ["Data Structures & Algorithms", "Machine Learning", "Database Systems", "Cloud Computing"],
-      achievements: ["Dean's List", "Graduate Research Assistant"]
+      degree: "Master of Computer Applications",
+      school: "Tezpur University",
+      location: "Tezpur, Assam, India",
+      period: "2019 - 2022",
+      gpa: "8.2/10",
+      coursework: ["Data Structures & Algorithms", "Database Systems", "Cloud Computing"],
+      achievements: ["Placement Coordinator"]
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
-      school: "University of California, Berkeley",
-      location: "Berkeley, CA", 
-      period: "2015 - 2019",
-      gpa: "3.7/4.0",
+      degree: "Bachelor of Computer Applications",
+      school: "Gauhati University",
+      location: "Guwahati, Assam, India", 
+      period: "2016 - 2019",
+      gpa: "8.3/10",
       coursework: ["Software Architecture", "Data Engineering", "Statistics", "Systems Design"],
-      achievements: ["Summa Cum Laude", "Computer Science Excellence Award"]
+      achievements: ["Computer Science Excellence Award"]
     }
   ]
 

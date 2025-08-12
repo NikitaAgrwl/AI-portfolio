@@ -6,49 +6,31 @@ import { Button } from "@/components/ui/button"
 const CertificationsSection = () => {
   const certifications = [
     {
-      name: "AWS Certified Solutions Architect - Professional",
-      issuer: "Amazon Web Services",
-      date: "March 2023",
-      credentialId: "AWS-PSA-12345",
-      verifyUrl: "#",
-      skills: ["AWS", "Cloud Architecture", "System Design", "Security"],
-      description: "Advanced certification demonstrating expertise in designing distributed systems on AWS."
+      name: "SnowFlake - The Complete Masterclass",
+      issuer: "Udemy",
+      date: "October, 2023",
+      credentialId: "UC-77d4aba6-632d-4652-9b63-0b67f452c004",
+      verifyUrl: "https://www.udemy.com/certificate/UC-77d4aba6-632d-4652-9b63-0b67f452c004/",
+      skills: ["Snowflake", "Cloud Architecture", "MySql", "Data Warehousing"],
+      description: "I learnt how to use Snowflake from the ground up, mastering both fundamental and advanced features in a structured, hands-on way. The course provided clear explanations, best practices, and plenty of practical exercises to deepen my understanding. It has equipped me with the skills to confidently work with Snowflake for modern cloud-based data engineering and analytics tasks."
     },
     {
-      name: "Snowflake SnowPro Advanced: Data Engineer",
-      issuer: "Snowflake",
-      date: "January 2023", 
-      credentialId: "SNF-ADE-67890",
-      verifyUrl: "#",
-      skills: ["Snowflake", "Data Engineering", "ETL", "Data Warehousing"],
-      description: "Advanced certification for designing and implementing data engineering solutions on Snowflake."
+      name: "Data Analysis | SQL, Tableau, PowerBi and Excel | Real Projects",
+      issuer: "Udemy",
+      date: "July, 2025",
+      credentialId: "UC-3abe489a-9da7-4c2b-9a65-9d8ae16da85f",
+      verifyUrl: "https://www.udemy.com/certificate/UC-3abe489a-9da7-4c2b-9a65-9d8ae16da85f/",
+      skills: ["SQL", "PowerBi", "Tableau", "Data Analysis", "Excel"],
+      description: "I learnt how to analyze and visualize data using key tools like SQL, Excel, Tableau, and Power BI (Windows only), along with how to use ChatGPT to boost productivity. Through hands-on projects, I developed practical skills in writing SQL queries, cleaning and transforming data, and building interactive dashboards. This course gave me a strong foundation in data analysis and prepared me to pursue opportunities in the data analytics field with confidence."
     },
     {
-      name: "Apache Airflow Fundamentals",
-      issuer: "Apache Software Foundation",
-      date: "November 2022",
-      credentialId: "ASF-AF-11111",
-      verifyUrl: "#",
-      skills: ["Apache Airflow", "Workflow Management", "Python", "Data Orchestration"],
-      description: "Certification covering workflow orchestration and data pipeline automation."
-    },
-    {
-      name: "dbt Analytics Engineering",
-      issuer: "dbt Labs",
-      date: "September 2022",
-      credentialId: "DBT-AE-22222",
-      verifyUrl: "#",
-      skills: ["dbt", "SQL", "Data Modeling", "Analytics Engineering"],
-      description: "Certification in modern analytics engineering practices using dbt."
-    },
-    {
-      name: "Tableau Desktop Certified Associate",
-      issuer: "Tableau",
-      date: "June 2022",
-      credentialId: "TAB-DCA-33333", 
-      verifyUrl: "#",
-      skills: ["Tableau", "Data Visualization", "Business Intelligence", "Dashboard Design"],
-      description: "Certification demonstrating proficiency in creating interactive data visualizations."
+      name: "Certificate Of Internship",
+      issuer: "Antares Tech (Terracode Systems Private Limited)",
+      date: "1 MAR, 2022 - 30 AUG, 2022",
+      credentialId: "#", 
+      verifyUrl: "https://www.linkedin.com/in/nikita-agarwal23",
+      skills: ["JavaScript", "Reactjs", "Nodejs", "MongoDB"],
+      description: "I participated in a live Antares project for an enterprise SaaS (Software as a Service) company in the agriculture industry based in Missouri, USA as a full-stack developer."
     }
   ]
 

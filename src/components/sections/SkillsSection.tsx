@@ -5,27 +5,23 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       category: "Programming Languages",
-      skills: ["Python", "SQL", "JavaScript", "TypeScript", "Java", "Scala"]
+      skills: ["Python", "SQL", "JavaScript"]
     },
     {
       category: "Data Engineering",
-      skills: ["Apache Airflow", "DBT", "Snowflake", "Apache Spark", "Kafka", "ETL/ELT"]
+      skills: ["Apache Airflow", "DBT", "Snowflake", "Kafka", "ETL/ELT"]
     },
     {
       category: "Cloud Platforms",
-      skills: ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes"]
-    },
-    {
-      category: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "DynamoDB"]
+      skills: ["AWS S3", "AWS Glue"]
     },
     {
       category: "Data Visualization",
-      skills: ["Power BI", "Tableau", "Looker", "D3.js", "matplotlib", "plotly"]
+      skills: ["Power BI", "Tableau", "matplotlib"]
     },
     {
       category: "Tools & Frameworks",
-      skills: ["Git", "Jenkins", "Terraform", "FastAPI", "Django", "React"]
+      skills: ["Git", "GitHub", "React"]
     }
   ]
 
