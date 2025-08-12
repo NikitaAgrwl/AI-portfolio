@@ -46,19 +46,23 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="py-16 lg:ml-80">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-portfolio-text mb-8">Projects</h2>
+        <h2 className="text-3xl font-bold text-portfolio-text mb-8 animate-fade-in-up">Projects</h2>
         
         <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-portfolio-surface border-portfolio-border hover:bg-portfolio-surface-hover transition-colors">
+            <Card 
+              key={index} 
+              className="bg-portfolio-surface border-portfolio-border hover:bg-portfolio-surface-hover transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-portfolio-accent/10 animate-fade-in-up group"
+              style={{ animationDelay: `${index * 0.2}s` }}
+            >
               <CardHeader>
                 <div className="flex items-start justify-between">
-                  <CardTitle className="text-xl text-portfolio-text">{project.title}</CardTitle>
+                  <CardTitle className="text-xl text-portfolio-text group-hover:text-portfolio-accent transition-colors duration-300">{project.title}</CardTitle>
                   <div className="flex space-x-2">
-                    <Button variant="ghost" size="sm" className="text-portfolio-text-muted hover:text-portfolio-accent">
+                    <Button variant="ghost" size="sm" className="text-portfolio-text-muted hover:text-portfolio-accent hover:scale-110 transition-all duration-200">
                       <Github className="w-4 h-4" />
                     </Button>
-                    <Button variant="ghost" size="sm" className="text-portfolio-text-muted hover:text-portfolio-accent">
+                    <Button variant="ghost" size="sm" className="text-portfolio-text-muted hover:text-portfolio-accent hover:scale-110 transition-all duration-200">
                       <ExternalLink className="w-4 h-4" />
                     </Button>
                   </div>
@@ -87,7 +91,7 @@ const ProjectsSection = () => {
                     <Badge 
                       key={techIndex} 
                       variant="outline" 
-                      className="text-portfolio-accent border-portfolio-accent"
+                      className="text-portfolio-accent border-portfolio-accent hover:bg-portfolio-accent hover:text-portfolio-bg transition-all duration-200 hover:scale-105"
                     >
                       {tech}
                     </Badge>
